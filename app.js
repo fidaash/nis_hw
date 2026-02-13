@@ -555,7 +555,7 @@ function resetSession() {
   $("resultLabel").textContent = "No result yet";
   $("resultMeta").textContent = "Click the button to run sentiment analysis.";
 
-  setReviewText("Review will appear here after you click "Analyze random review".");
+  setReviewText('Review will appear here after you click "Analyze random review".');
   clearActionUI();
   drawDistributionChart();
   updateChartFooter();
